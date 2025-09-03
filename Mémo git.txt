@@ -1,0 +1,27 @@
+Mémo Git
+
+ • git init – Initialiser un nouveau dépôt Git.
+ • git clone –  Télécharge un projet et tout son historique de versions.
+ • git status – Vérifier l’état du dépôt.
+ • git add [nom de fichier] – Ajouter un fichier à l’index (staging area).
+ • git add . – Ajouter tous les fichiers modifiés à l’index.
+ • git commit -m 'message' – Valider les changements avec un message.
+ • git log – Afficher l’historique des commits.
+ • git diff – Afficher les différences entre les versions.
+ • git branch – Lister les branches existantes.
+ • git branch [nom-de-branche] – Créer une nouvelle branche.
+ • git branch -d [nom-de-branche]  supprime(delete) la branche spécifiée
+ • git checkout [nom-de-branche] – Changer de branche.
+ • git checkout -b [nouv-branche] – Créer et basculer sur une nouvelle branche.
+ • git checkout -b [nouv-branche] [exist-branche] – Créer la nouvelle branche à partir d'une branche existante.
+ • git merge – Fusionner une branche dans la branche active.  
+ • git pull – Récupérer et fusionner les modifications distantes.
+ • git push – Envoyer les changements locaux vers le dépôt distant.
+ • git remote -v – Lister les dépôts distants configurés.
+ • git fetch – Récupérer les changements distants sans fusionner.
+ • git reset --hard – Réinitialiser l’historique à un commit précis.
+ • git revert – Annuler un commit en créant un nouveau commit.
+ • git stash – Mettre de côté les modifications en cours.
+ • git stash pop – Restaurer les modifications mises de côté.
+ • git tag – Créer un tag pour marquer un commit spécifique.
+ • git show – Afficher les détails d’un commit ou d’un tag.
